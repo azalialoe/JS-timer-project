@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIIT Timer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <main>
+    <!-- website intro text  -->
+    <div class="wrapper">
+        <h1>Simple HIIT Timer</h1>
+
+        <h2>Hi, there! This website is designed to be used as a basic timer for HIIT exercises.</h2> 
+
+        <h3>Don't forget to warm-up and cool down after your exercise! And stay hydrated!</h3>
+    </div>
+        
+    
+
+    <div class="wrapper">
+        <!-- form begins -->
+        <form action="#" method="#" class="form" name="form">
+
+            <!-- length of interval -->
+            <label for="interval">Length of interval (in seconds):</label>
+            <input type="text" class="interval">
+           
+
+            <!-- length of rest -->
+            <label for="rest">Rest (in seconds):</label>
+            <input type="text" class="rest">
+
+            <button class="begin"><span>Let's begin!</span></button>
+            <button class="stop"><span>stop</span></button>
+            <button class="reset"><span>reset</span></button>
+        </form>
+        <!-- form ends -->
+    </div>
+
+    <!-- text and visible countdown timer -->
+    <div class="wrapper">
+        <p class ="textChange">Let's go!</p> 
+        <p class="timeLeft">0</> 
+       
+    </div>
+
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            Created at <a href = "https://junocollege.com">Juno College</a>
+        </div>
+    </footer>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
